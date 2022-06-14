@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	char alp;
+char alp;
 
-	for(alp = 'z'; alp >='a'; alp--)
-	{
-		putchar(alp);
-	}
-	putchar('\n');
-	return(0);
+for(alp = 'z'; alp >= 'a'; alp--)
+{
+putchar(alp);
+}
+putchar('\n');
+return (0);
 }
