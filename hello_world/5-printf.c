@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  * main - entry point
- * Description: Using printf to print message
+ * Description: 'Using printf to print message'
  */
 int main(void)
 {
