@@ -17,12 +17,12 @@ int n,i;
             
                 putchar(n+'0');
                 putchar(i+'0');
+                putchar(',');
             }
             
         }
         
-        putchar('\n');
-
-        return(0);
+putchar('\n');
+return(0);
 
 }
