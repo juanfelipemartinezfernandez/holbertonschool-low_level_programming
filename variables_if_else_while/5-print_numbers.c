@@ -8,12 +8,15 @@
 
 int main(void)
 {
-    int n;
+        char alp;
 
-    for(n=0; n<10; n++)
-    {
-        puts(n);
-    }
-putchar('\n');
-return(0);
+        for(alp='a'; alp<='z'; alp++)
+        {
+            if (alp != 'q' && alp != 'e')
+                putchar(alp);
+        }
+        
+        putchar('\n');
+
+        return(0);
 }
