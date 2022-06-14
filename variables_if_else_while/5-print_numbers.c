@@ -13,7 +13,7 @@ int main(void)
         for(n='0'; n<'10'; n++)
         {
             
-            putchar(n);
+            printf(n, "\33[2K\r");
         }
         
         putchar('\n');
