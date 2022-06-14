@@ -12,8 +12,8 @@ int n;
 
         for(n=0; n<10; n++)
         {
-            char c = n + '0';
-            putchar(c);
+            
+            putchar(n+'0');
         }
         
         putchar('\n');
