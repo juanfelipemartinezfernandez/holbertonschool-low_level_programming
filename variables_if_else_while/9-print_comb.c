@@ -14,7 +14,7 @@ int n,i;
         {
             for(i=0; i<10; i++)
             {
-                if (n!=9 && i!=99)
+                if (n!=9 && i!=9)
                 {
                     putchar(n+'0');
                     putchar(i+'0');
