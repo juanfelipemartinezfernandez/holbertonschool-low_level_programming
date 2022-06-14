@@ -10,7 +10,7 @@ int main(void)
 {
         int n;
 
-        for(n=0; n<17; n++)
+        for(n=0; n<16; n++)
         {
             
             printf("%x", n);
