@@ -16,8 +16,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	char charn = "123";
-	int len = charn[-1];
-	printf("number is %d, and lenght is %d", n, n);
+	int ld=1;
+
+	if(ld > 5)
+		printf("Last digit of %d is %d and is greater than 5", n, ld);
+	elif (ld == 0)
+		printf("Last digit of %d is %d and is 0", n, ld);
+	else
+     	printf("Last digit of %d is %d and is less than 6 and not 0", n, ld);
 	return (0);
 }
