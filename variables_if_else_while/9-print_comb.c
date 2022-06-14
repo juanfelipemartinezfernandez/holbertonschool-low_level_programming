@@ -19,17 +19,12 @@ int n,i;
                     putchar(n+'0');
                     putchar(i+'0');
                     putchar(',');
-                }
-                else
-                {
-                    putchar(n+'0');
-                    putchar(i+'0');
-                }
+                }                
             }
             
         }
         
-putchar('\n');
+putchar('99\n');
 return(0);
 
 }
