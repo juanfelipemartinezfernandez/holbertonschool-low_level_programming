@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
- * Description: 'Using printf to print message'
+ * main - Entry point
+ * Description: 'Print using printf funct'
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
