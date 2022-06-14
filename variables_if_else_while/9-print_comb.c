@@ -14,10 +14,17 @@ int n,i;
         {
             for(i=0; i<10; i++)
             {
-            
-                putchar(n+'0');
-                putchar(i+'0');
-                putchar(',');
+                if (n!=9 && i!=99)
+                {
+                    putchar(n+'0');
+                    putchar(i+'0');
+                    putchar(',');
+                }
+                else
+                {
+                    putchar(n+'0');
+                    putchar(i+'0');
+                }
             }
             
         }
