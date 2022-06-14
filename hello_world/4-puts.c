@@ -1,6 +1,10 @@
 #include <stdio.h>
-/*
- *main here
+/**
+ * main - Entry point
+ * 
+ * Description: 'Using function puts'
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
