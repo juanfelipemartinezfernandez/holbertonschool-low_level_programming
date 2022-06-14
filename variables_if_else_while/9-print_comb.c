@@ -24,7 +24,7 @@ int n;
 
                 putchar(n+'0');
             }
-            putchar(' ');
+            putchar('\n');
         }
         
         
