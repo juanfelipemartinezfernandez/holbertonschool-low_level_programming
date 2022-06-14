@@ -8,22 +8,22 @@
 
 int main(void)
 {
-int n,i;
+int n;
 
         for(n=0; n<10; n++)
         {
-            for(i=0; i<10; i++)
-            {
-                
-                    putchar(n+'0');
-                    putchar(i+'0');
-                    putchar(',');
-                               
+            if (n != 9){
+                putchar(n+'0');
+                putchar(',');
             }
-            
+            else
+            {
+                putchar(n+'0');
+            }
         }
         
-putchar('\n');
-return(0);
+        putchar('\n');
+
+        return(0);
 
 }
