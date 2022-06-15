@@ -5,14 +5,14 @@
 * Description: 'What programm does'
 * Return: Always 0 (success)
 */
-void print();
+void print(void);
 
 int main(void)
 {
 print();
 return (0);
 }
-void print()
+void print(void)
 {
 printf("_putchar\n");
 return;
