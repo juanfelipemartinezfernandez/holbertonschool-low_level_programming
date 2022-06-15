@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - Imprime _putchar 
- * 
- * Return: 0 on success
+ *main - Imprime _putchar
+ *Return: 0 on success
  */
 int main(void)
 {
