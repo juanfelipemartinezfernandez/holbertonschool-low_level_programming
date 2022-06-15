@@ -6,12 +6,10 @@ int _islower(int c)
 
     for (comparison = 'a'; comparison <= 'z'; comparison++){
         if ( c == comparison )
-        return (0);
-        else
         return (1);
 
 
     }
-    
+    return (0);
 
 }
