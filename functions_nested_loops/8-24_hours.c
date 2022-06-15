@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * jack_bauer - Prints all the times of the day
+ * 
+ */
 void jack_bauer(void)
 {
 int h,m;
