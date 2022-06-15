@@ -1,16 +1,11 @@
 #include <stdio.h>
 /**
- * print - prints _putchar
+ * main - Imprime _putchar 
  * 
- * Return: 0 at success
+ * Return: 0 on success
  */
 int main(void)
 {
-print();
-return (0);
-}
-void print(void)
-{
 printf("_putchar\n");
-return;
+return (0);
 }
