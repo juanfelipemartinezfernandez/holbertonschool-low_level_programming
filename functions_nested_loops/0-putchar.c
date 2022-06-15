@@ -1,14 +1,9 @@
 #include <stdio.h>
-
 /**
-* main - Entry point
-* Description: 'What programm does'
-* Return: Always 0 (success)
-* Function print
-* print - prints seomthing
-*/
-void print(void);
-
+ * print - prints _putchar
+ * 
+ * Return: 0 at success
+ */
 int main(void)
 {
 print();
