@@ -4,7 +4,7 @@
  *               in order separated by a comma followed by a space.
  * @num1: The number to begin counting at.
  * @num2: The number to begin counting at.
- * return: the sum of both numbers
+ * Return: the sum of both numbers
  */
 int add(int num1, int num2)
 {
