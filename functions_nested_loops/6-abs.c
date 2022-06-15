@@ -10,5 +10,5 @@ int absolute;
 
 if (n >= 0)
 return (n);
-return ((absolute= n * -1));
+return ((absolute = n * -1));
 }
