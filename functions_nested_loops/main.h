@@ -10,12 +10,7 @@
 int _putchar(char c);
 void print_alphabet(void);
 
-int main(void)
-{
-
-    return (0);
-}
-
+/**
 
 int _putchar(char c)
 {
@@ -32,4 +27,4 @@ for (alp = 'a'; alp <= 'z'; alp++)
 }
 _putchar('\n');
 return;
-}
+}*/
