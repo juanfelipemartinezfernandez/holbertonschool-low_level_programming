@@ -4,8 +4,8 @@ int print_last_digit(int n)
 {
     int result;
 
-   
-    return ((result=(n%10)));
+    result = n % 10;
+    return (result);
 
    
 }
