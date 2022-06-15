@@ -4,9 +4,8 @@
 * main - Entry point
 * Description: 'What programm does'
 * Return: Always 0 (success)
-* print
-* Description: 'prints something'
-* Return: void
+* Function print
+* prints something'
 */
 void print(void);
 
