@@ -17,5 +17,4 @@ _putchar(alp);
 _putchar('\n');
 c++;
 }
-return;
-}
+return;}
