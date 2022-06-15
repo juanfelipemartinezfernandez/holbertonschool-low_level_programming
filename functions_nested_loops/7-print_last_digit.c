@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * @ print_last_digit - print the very last digit 
+ * 
+ * @param n number to be evaluated
+ * @return int the result
+ */
 int print_last_digit(int n)
 {
     int result;
