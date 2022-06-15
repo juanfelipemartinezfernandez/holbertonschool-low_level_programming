@@ -5,7 +5,7 @@
 * Description: 'What programm does'
 * Return: Always 0 (success)
 * Function print
-* prints something'
+* print - prints seomthing
 */
 void print(void);
 
