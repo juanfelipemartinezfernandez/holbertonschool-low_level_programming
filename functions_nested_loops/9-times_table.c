@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * @brief times_table: prints table up to 9
+ * 
+ */
 void times_table(void)
 {
 	int num, mult, result;
