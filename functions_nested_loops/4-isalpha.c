@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * _isalpha - shows if it is a letter either upper or lower case
+ * 
+ * @c: Number to check
+ * Return: Shows 1 if letter 0 if not 
+ */
 int _isalpha(int c)
 {
     char comparison;
