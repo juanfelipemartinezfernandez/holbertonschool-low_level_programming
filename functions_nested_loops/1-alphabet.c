@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    print_alphabet();
+    _putchar('h');
 
     return (0);
 }
