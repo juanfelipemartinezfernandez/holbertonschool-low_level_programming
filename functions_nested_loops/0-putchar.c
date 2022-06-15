@@ -15,6 +15,6 @@ return (0);
 
 void print()
 {
-printf("putchar");
+printf("_putchar\n");
 return;
 }
