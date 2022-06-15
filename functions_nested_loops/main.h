@@ -1,7 +1,6 @@
-#include <stdio.h>
-
 void print_alphabet(void);
 
+void _putchar();
 void print_alphabet(void)
 {
 char alp;
