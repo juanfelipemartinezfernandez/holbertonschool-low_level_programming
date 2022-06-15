@@ -19,5 +19,4 @@ if (c == comparison)
 return (1);
 }
 return (0);
-
 }
