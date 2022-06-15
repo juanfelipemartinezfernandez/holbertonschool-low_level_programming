@@ -10,7 +10,7 @@ char comparison;
 
 for (comparison = 'a'; comparison <= 'z'; comparison++)
 {
-if ( c == comparison )
+if (c == comparison)
 return (1);
 
 }
