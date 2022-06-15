@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * @ print_last_digit - print the very last digit 
+ * print_last_digit - print the very last digit 
  * 
  * @param n number to be evaluated
  * @return int the result
