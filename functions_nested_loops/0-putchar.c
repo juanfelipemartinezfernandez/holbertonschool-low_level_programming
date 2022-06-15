@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
 * main - Entry point
@@ -7,10 +7,15 @@
 * Function print
 * prints something'
 */
+void print(void);
 
 int main(void)
 {
-
-_putchar("_putchar");
+print();
 return (0);
+}
+void print(void)
+{
+printf("_putchar\n");
+return;
 }
