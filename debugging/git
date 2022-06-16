@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#script for saving changes in Git
+chmod +x *
+git add .
+git commit -m "Added change"
+git push
