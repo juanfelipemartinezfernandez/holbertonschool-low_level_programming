@@ -21,4 +21,6 @@ for (i = 0; i < size; i++)
 }
 
 }
+else
+_putchar('\n');
 }
