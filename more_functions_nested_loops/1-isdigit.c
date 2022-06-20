@@ -11,8 +11,11 @@ int _isdigit(int c)
 
         for (n = 0; n < 10; n++)
         {
-                if (n == c)
+                if (c == n)
+                {
                         return (1);
+                }
+
         }
         return (0);
 
