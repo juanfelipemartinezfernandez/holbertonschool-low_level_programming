@@ -17,10 +17,10 @@ for (i = 0; i < size; i++)
         while (k >= 0 && k < (size))
         {
                 _putchar('#');
-
+                k--;
         }
         
-        k--;
+        
         _putchar('\n');
 }
 
