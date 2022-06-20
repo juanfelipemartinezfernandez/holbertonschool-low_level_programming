@@ -10,8 +10,9 @@ while (i < 10)
 {
 for (n = 0; n < 10; n++)
 {
-_putchar(n + '0');
-_putchar((2 / 10) + '0');
+if (n > 9)
+_putchar('1');
+_putchar((n % 10) + '0');
 }
 _putchar('\n');
 i++;
