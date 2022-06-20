@@ -7,9 +7,9 @@
  */
 int _isdigit(int c)
 {
-        int n;
+        char n;
 
-        for (n = 0; n < 10; n++)
+        for (n = '0'; n < '10'; n++)
         {
                 if (c == n)
                 {
@@ -17,6 +17,6 @@ int _isdigit(int c)
                 }
 
         }
-        return (1);
+        return (0);
 
 }
