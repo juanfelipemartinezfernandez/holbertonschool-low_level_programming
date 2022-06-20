@@ -13,7 +13,7 @@ for (i = 0; i < size; i++)
         {
                 _putchar(' ');
         }
-        for ( k ; k < size; k--)
+        for ( k = ((size - i) - 1); k < size; k--)
         {
                 _putchar('#');
         }
