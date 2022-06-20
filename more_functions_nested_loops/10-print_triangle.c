@@ -13,10 +13,12 @@ for (i = 0; i < size; i++)
         {
                 _putchar(' ');
         }
-        for ( k = ((size - i) - 1); k < size; k--)
+        for ( k = ((size - i) - 1); (k < size && k >= 0); k--)
         {
                 _putchar('#');
         }
+        
+        
         _putchar('\n');
 }
 
