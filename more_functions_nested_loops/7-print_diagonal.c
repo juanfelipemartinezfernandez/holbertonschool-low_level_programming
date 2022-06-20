@@ -11,12 +11,13 @@ if (n > 0)
 {
 for (i = 0; i < n; i++)
 {
-while (j <= i)
+while (j <= 3)
 {
 _putchar(' ');
 j++;
 }
 _putchar('\\');
+_putchar('\n');
 }
 }
 _putchar('\n');
