@@ -8,7 +8,7 @@ int n;
 
 for (n = 0; n < 15; n++)
 {
-_putchar(n + "0");
+_putchar(n);
 }
 
 
