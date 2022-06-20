@@ -14,6 +14,7 @@ for (i = 0; i < n; i++)
 while (j <= i)
 {
 _putchar(' ');
+j++;
 }
 _putchar('\\');
 }
