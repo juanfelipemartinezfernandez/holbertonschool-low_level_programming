@@ -11,7 +11,9 @@ while (i < 10)
 for (n = 0; n < 10; n++)
 {
 _putchar(n + '0');
+_putchar((2 / 10) + '0');
 }
 _putchar('\n');
+i++;
 }
 }
