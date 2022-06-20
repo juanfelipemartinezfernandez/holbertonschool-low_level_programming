@@ -9,9 +9,9 @@ int _isdigit(int c)
 {
         char n;
 
-        for (n = '0'; n < '10'; n++)
+        for (n = '0'; n <= '9'; n++)
         {
-                if (c == n)
+                if ((c + '0') == n)
                 {
                         return (1);
                 }
