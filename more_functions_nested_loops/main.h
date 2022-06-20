@@ -9,6 +9,7 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
+int _putchar(char c);
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
