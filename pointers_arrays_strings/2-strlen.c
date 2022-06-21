@@ -6,13 +6,14 @@
  */
 int _strlen(char *s)
 {
-int contador = 0;
+int contador = 0, a = 1;
 
-while (1)
+while (a == 1)
 {
 if (*(s + contador) != '\0')
 contador++;
 else
-0;
+a == 0;
 }
+return (contador);
 }
