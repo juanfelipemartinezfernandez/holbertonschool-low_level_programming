@@ -10,5 +10,5 @@ int holder;
 
 holder = *a;
 *a = *b;
-*b = *a;
+*b = holder;
 }
