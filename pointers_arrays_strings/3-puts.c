@@ -5,14 +5,13 @@
  */
 void _puts(char *str)
 {
-char *string[] = *str;
 int a = 1, i = 0;
 
 while (a == 1)
 {
-if (*(string + i) != '\0')
+if (*(str + i) != '\0')
 {
-_putchar(string[i]);
+_putchar(str[i]);
 }
 else
 _putchar('\n');
