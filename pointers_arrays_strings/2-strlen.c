@@ -13,7 +13,7 @@ while (a == 1)
 if (*(s + contador) != '\0')
 contador++;
 else
-a == 0;
+a = 0;
 }
 return (contador);
 }
