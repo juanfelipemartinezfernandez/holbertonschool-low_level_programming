@@ -15,8 +15,10 @@ _putchar(str[i]);
 i++;
 }
 else
+{
 _putchar('\n');
 a = 0;
+}
 }
 
 
