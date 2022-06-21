@@ -15,6 +15,7 @@ _putchar(str[i]);
 }
 else
 _putchar('\n');
+a = 0;
 }
 
 
