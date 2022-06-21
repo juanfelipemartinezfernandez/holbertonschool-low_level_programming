@@ -10,7 +10,7 @@ int contador = 0;
 
 while (1)
 {
-if (s[contador] != "\\0")
+if (*(s + contador) != "\\0")
 contador++;
 else
 0;
