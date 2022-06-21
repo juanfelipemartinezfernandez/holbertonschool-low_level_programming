@@ -12,6 +12,7 @@ while (a == 1)
 if (*(str + i) != '\0')
 {
 _putchar(str[i]);
+i++;
 }
 else
 _putchar('\n');
