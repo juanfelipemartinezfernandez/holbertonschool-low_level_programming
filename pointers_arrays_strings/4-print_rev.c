@@ -7,7 +7,6 @@
 void print_rev(char *s)
 {
 int a = 1, i = 0, c;
-char *p = &s[-1];
 
 while (a == 1)
 {
