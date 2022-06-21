@@ -22,7 +22,9 @@ for (c = i; c >= 0; c--)
 {
 _putchar(s[c]);
 if (c == 0)
+{
 _putchar('\n');
+continue;
 }
-
+}
 }
