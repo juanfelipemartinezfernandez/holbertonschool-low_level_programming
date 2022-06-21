@@ -18,9 +18,9 @@ a = 0;
 _putchar('\n');
 }
 }
-for (c = i; c <= 0; c--)
+for (c = i; c >= 0; c--)
 {
-        _putchar(s[i]);
+        _putchar(s[c]);
 }
 _putchar('\n');
 }
