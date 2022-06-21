@@ -13,7 +13,10 @@ while (a == 1)
 if (*(s + i) != '\0')
 i++;
 else
+{
 a = 0;
+_putchar('\n');
+}
 }
 for (c = i; c <= 0; c--)
 {
