@@ -14,11 +14,11 @@ for (i = 0; i < size; i++)
                 _putchar(' ');
         }
         
-        while (k >= 0 && k < (size))
+        for (k = (size - 1); (k < size && k >= 0); k--)
         {
                 _putchar('#');
-                k--;
         }
+        
         
         
         _putchar('\n');
