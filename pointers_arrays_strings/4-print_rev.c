@@ -15,7 +15,6 @@ i++;
 else
 {
 a = 0;
-_putchar('\n');
 }
 }
 for (c = i; c >= 0; c--)
