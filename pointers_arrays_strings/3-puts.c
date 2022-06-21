@@ -10,7 +10,7 @@ int a = 1, i = 0;
 
 while (a == 1)
 {
-if (string[i] != '\0')
+if (*(string + i) != '\0')
 {
 _putchar(string[i]);
 }
