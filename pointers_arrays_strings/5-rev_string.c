@@ -18,14 +18,7 @@ else
 a = 0;
 }
 }
-for (c = i; c >= 0; c--)
-{
+for (c = i-1; c >= 0; c--)
 _putchar(s[c]);
-if (c == 0)
-{
-continue;
 _putchar('\n');
-
-}
-}
 }
