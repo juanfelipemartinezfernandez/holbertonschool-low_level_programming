@@ -12,11 +12,11 @@ int i;
 for ( i = 0; i <= n ; i++)
 {
 
-if (i == 10)
-puts(*(a + i));
+if (i == n)
+printf(*(a + i));
 else
-puts(*(a + i) + ", ");
+printf(*(a + i) + ", ");
 }
-puts('\n');
+printf('\n');
 
 }
