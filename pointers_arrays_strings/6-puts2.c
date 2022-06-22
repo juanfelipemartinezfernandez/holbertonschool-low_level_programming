@@ -12,10 +12,10 @@ while (str[i++])
 {
 len++;
 }
-for (i = 0; i <= len - 1; i++)
+for (i = 0; i <= len - 1; i+=2)
 {
 _putchar(str[i]);
-i++;
+
 }
 _putchar('\n');
 
