@@ -13,9 +13,9 @@ for ( i = 0; i <= n ; i++)
 {
 
 if (i == n)
-puts(a[i]);
+puts(*(a + i) + "\n");
 else
-puts(a[i] + ", ");
+puts(*(a + i) + ", ");
 }
 
 
