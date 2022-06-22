@@ -13,7 +13,7 @@ while (s[i++])
 {
 len++;
 }
-for ( i = 0; i < len; i++)
+for ( i = 0; i <= len; i++)
 {
         s[(((i+1) * -1) - 1)] = s[i];
 }
