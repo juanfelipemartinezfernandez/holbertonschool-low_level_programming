@@ -13,9 +13,9 @@ for ( i = 0; i <= n ; i++)
 {
 
 if (i == n)
-printf(*(a + i));
+printf("%s", *(a + i));
 else
-printf(*(a + i) + ", ");
+printf("%s, ", *(a + i));
 }
 printf('\n');
 
