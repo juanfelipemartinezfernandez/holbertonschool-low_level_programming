@@ -13,18 +13,9 @@ while (a == 1)
 if (*(s + i) != '\0')
 i++;
 else
-{
 a = 0;
 }
-}
 for (c = i; c >= 0; c--)
-{
 _putchar(s[c]);
-if (c == 0)
-{
-continue;
-_putchar('\n');
 
-}
-}
 }
