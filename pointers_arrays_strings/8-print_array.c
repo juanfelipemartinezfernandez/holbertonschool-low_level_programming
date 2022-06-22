@@ -20,5 +20,5 @@ break;
 else
 printf("%d, ", *(a + i));
 }
-
+putchar('\n');
 }
