@@ -24,7 +24,7 @@ char *_strcpy(char *dest, char *src)
         if(con_d > con_s)
 {
 int hold = con_d + con_s;
-con_d = con_s - con_d;
+con_d = hold - con_d;
 for ( i = con_d; i <= con_s; i++)
 {
         dest[i] = '\0';
