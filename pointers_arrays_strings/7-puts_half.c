@@ -11,7 +11,10 @@ while (str[i++])
 {
 len++;
 }
-
+if ((len % 2) != 0)
+{
+        len-=1;
+}
 
 for (i = (len / 2); i <= len - 1; i++)
 {
