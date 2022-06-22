@@ -12,11 +12,11 @@ int i;
 for ( i = 0; i <= n ; i++)
 {
 
-if (i == n)
-puts(*(a + i) + "\n");
+if (i == 10)
+puts(*(a + i));
 else
 puts(*(a + i) + ", ");
 }
-
+puts('\n');
 
 }
