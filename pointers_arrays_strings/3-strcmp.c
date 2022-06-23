@@ -11,14 +11,15 @@ int _strcmp(char *s1, char *s2)
 char *p,*p2;
 p = s1;
 p2 = s2;
+if (*p == *p2 || p == p2)
+return (0);
 while (*p == *p2)
 {
 p++;
 p2++;
 }
 
-if (*p == *p2 || p == p2)
-return (0);
+
 return (*p-*p2);
 
 
