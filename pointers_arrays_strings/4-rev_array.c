@@ -12,8 +12,8 @@ len++;
 
 for (i = 0; i < n / 2; i++)
 {
-if ((len % 2) != 0 && i == n / 2 - 1)
-continue;
+if ((len % 2) != 0 && i == (n / 2) - 1)
+break;
 
 tmp = a[i];
 a[i] = a[len - i];
