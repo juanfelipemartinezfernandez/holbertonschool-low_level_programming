@@ -8,13 +8,17 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-if (*s1 == *s2)
+char *p,*p2;
+p = s1;
+p2 = s2;
+while (*p == *p2)
 {
-s1++;
-s2++;
+p++;
+p2++;
 }
 
-return (*s1-*s2);
+
+return (*p-*p2);
 
 
 
