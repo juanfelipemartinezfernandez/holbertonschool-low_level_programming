@@ -19,8 +19,7 @@ if (*p == i)
 }
 }
 index++;
-p++;        
+p++;
 }
 return (s);
-
 }
