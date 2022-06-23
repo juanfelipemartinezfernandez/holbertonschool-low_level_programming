@@ -6,8 +6,9 @@
 char *string_toupper(char *s)
 {
 char i, *p;
+int index = 0;
 p = s;
-while (s)
+while (s[index])
 {
 for (i = 'a'; i <= 'z'; i++)
 {
@@ -16,7 +17,7 @@ for (i = 'a'; i <= 'z'; i++)
                *p = *p - 32;
         }
 }
-s++;      
+index++;
 p++;        
 }
 return (s);
