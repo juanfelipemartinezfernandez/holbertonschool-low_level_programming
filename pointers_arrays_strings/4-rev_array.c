@@ -6,9 +6,9 @@
  */
 void reverse_array(int *a, int n)
 {
-int tmp, i, len;
+int tmp, i, len = 0;
 while (a[len])
-a++;
+len++;
 
 for (i = 0; i < n / 2; i++)
 {
