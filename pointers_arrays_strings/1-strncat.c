@@ -15,8 +15,6 @@ while (dest[d_len])
 {
 d_len++;
 }
-
-
 for (i = 0 ; i < n && src[i] != '\0' ; i++)
 dest[d_len + i] = src[i];
 dest[d_len + i] = '\0';
