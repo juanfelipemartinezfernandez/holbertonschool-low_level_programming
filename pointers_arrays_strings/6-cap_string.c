@@ -6,7 +6,7 @@
 char *cap_string(char *s)
 {
 char i, *p;
-char separator[] = {32, 11, 10, ',', ';', '.', '!', '?', 34, 41, 40, 123, 125, 0};
+char separator[] = {32, 9, 10, ',', ';', '.', '!', '?', 34, 41, 40, 123, 125, 0};
 int index = 0, k;
 p = s;
 while (s[index])
