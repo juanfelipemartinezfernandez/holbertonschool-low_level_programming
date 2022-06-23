@@ -21,8 +21,13 @@ for (i = 'a'; i <= 'z'; i++)
         }   
         }
 }
+if (s[index] != '\0')
+{
 index++;
 p++;
+}
+
+
 }
 return (s);
 }
