@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * *string_toupper changes all lowercase letters of a string to uppercase.
+ * @s:the string to change
  * Return: lowercase letters of a string
  */
 char *string_toupper(char *s)
@@ -12,10 +13,10 @@ while (s[index])
 {
 for (i = 'a'; i <= 'z'; i++)
 {
-        if (*p == i)
-        {
-               *p = *p - 32;
-        }
+if (*p == i)
+{
+*p = *p - 32;
+}
 }
 index++;
 p++;        
