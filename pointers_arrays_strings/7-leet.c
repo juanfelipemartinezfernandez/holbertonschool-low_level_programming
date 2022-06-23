@@ -7,7 +7,7 @@
 char *leet(char *s)
 {
 int k[] = {4, 4, 3, 3, 0, 0, 7, 7, 1, 1};
-char c[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+unsigned char c[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 char i, len = 0, j;
 
 while (s[len])
