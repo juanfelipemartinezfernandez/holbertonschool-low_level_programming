@@ -14,15 +14,15 @@ int i, len = 0, j;
 len = strlen(s);
 for (i = 0; i <= len; i++)
 {
-        for (j = 0; j < 10; j++)
-        {
-                if (s[i] == c[j])
-                {
-                        s[i] = k[j] + '0';
-                }
-                
-        }
-        
+for (j = 0; j < 10; j++)
+{
+if (s[i] == c[j])
+{
+s[i] = k[j] + '0';
+}
+
+}
+
 }
 
 return (s);
