@@ -8,7 +8,7 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-char *p,*p2;
+char *p, *p2;
 p = s1;
 p2 = s2;
 if (p == p2)
@@ -20,8 +20,6 @@ p2++;
 }
 
 
-return (*p-*p2);
-
-
+return (*p - *p2);
 
 }
