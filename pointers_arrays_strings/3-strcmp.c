@@ -18,7 +18,7 @@ while (s2[len2])
 {
 len2++;
 }
-return (len1-len2);
+return (len2-len1);
 
 
 
