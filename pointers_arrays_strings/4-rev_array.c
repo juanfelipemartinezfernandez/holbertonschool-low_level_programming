@@ -4,4 +4,18 @@
  * @a:Array of ints
  * @n:number of elements of the array
  */
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
+{
+int tmp, i, len;
+while (a[len])
+a++;
+
+for (i = 0; i < n / 2; i++)
+{
+tmp = a[i];
+a[i] = a[len - i];
+a[len - i] = tmp;
+}
+
+
+}
