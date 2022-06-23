@@ -12,7 +12,7 @@ len++;
 
 for (i = 0; i < n / 2; i++)
 {
-if ((len % 2) != 0 && i == (n / 2) - 1)
+if ((len % 2) != 0 && i == (n / 2) - 2)
 break;
 
 tmp = a[i];
