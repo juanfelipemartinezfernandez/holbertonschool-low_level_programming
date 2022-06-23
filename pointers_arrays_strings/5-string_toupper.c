@@ -5,18 +5,19 @@
  */
 char *string_toupper(char *s)
 {
-char i;
+char i, *p;
+p = s;
 while (s)
 {
 for (i = 'a'; i <= 'z'; i++)
 {
-        if (*s == i)
+        if (*p == i)
         {
-               *s = *s - '32';
+               *p = *p - '32';
         }
 }
 s++;      
-        
+p++;        
 }
 return (s);
 
