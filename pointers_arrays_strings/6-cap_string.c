@@ -12,7 +12,7 @@ while (s[index])
 {
 for (i = 'a'; i <= 'z'; i++)
 {
-for (j = 'a'; j <= 'z'; j++)
+for (j = 'A'; j <= 'Z'; j++)
 {
         if (*p == i && *(p-1) != j)
         {
