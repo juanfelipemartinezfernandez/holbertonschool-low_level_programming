@@ -33,5 +33,8 @@ for (i = 0; i < lenh; i++)
         }
         p++;
 }
+if (needle == '\0')
+return (haystack);
+
 return ('\0');
 }
