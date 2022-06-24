@@ -14,8 +14,8 @@ p1 = src;
 
 for (i = 0; i < n; i++)
 {
-        *p = *p1;
-        p++;
+*p = *p1;
+p++;
 p1++;
 }
 return (dest);
