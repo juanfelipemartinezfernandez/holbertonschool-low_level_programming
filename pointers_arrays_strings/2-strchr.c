@@ -17,7 +17,7 @@ for (i = 0; i <= j; i++)
 {
         if (*(s + i) == c)
         {
-                return (s);
+                return (s + i);
         }
        
 }
