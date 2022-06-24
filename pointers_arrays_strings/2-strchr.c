@@ -6,8 +6,6 @@
  */
 char *_strchr(char *s, char c)
 {
-char *p;
-p =s;
 int i = 0;
 
 while (s)
