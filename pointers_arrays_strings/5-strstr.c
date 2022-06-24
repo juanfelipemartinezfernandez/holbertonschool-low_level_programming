@@ -6,7 +6,7 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-int i, lenh = 0, match, lenn, j;
+int i, lenh = 0, match, lenn = 0, j;
 char *p = haystack;
 while (haystack[lenh])
 lenh++;
@@ -15,11 +15,11 @@ lenn++;
 
 for (i = 0; i < lenh; i++)
 {
-        if (haystack[i] == needle[i])
+        if (haystack[i] == needle[0])
         {
-                /*for (j = 0; j < (lenn - 1); j++)
+                for (j = 0; j < (lenn - 1); j++)
                 {
-                        if (haystack[i + j] == needle[i + j])
+                        if (haystack[i + j] == needle[j])
                                 match = 1;
                         else
                                 match = 0;
@@ -28,7 +28,7 @@ for (i = 0; i < lenh; i++)
                 if (match == 1)
                 {
                         return (p);
-                }*/
+                }
                 
         }
         p++;
