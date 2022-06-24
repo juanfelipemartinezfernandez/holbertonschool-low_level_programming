@@ -33,7 +33,7 @@ for (i = 0; i < lenh; i++)
         }
         p++;
 }
-if (needle == '\0')
+if (needle[0] == '\0')
 return (haystack);
 
 return ('\0');
