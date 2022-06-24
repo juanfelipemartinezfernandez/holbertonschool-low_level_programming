@@ -6,17 +6,18 @@
  */
 char *_strchr(char *s, char c)
 {
-int i = 0;
-
+char *p;
+int i;
+p =s;
 
 
 while (s[i++])
 {
-        if (s[i] == c)
+        if (*p == c)
         {
-                return (s++);
+                return (s);
         }
-       
+        p++;
 }
 return ('\0');
 
