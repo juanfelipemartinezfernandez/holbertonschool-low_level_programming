@@ -7,7 +7,7 @@
 char *_strchr(char *s, char c)
 {
 int i = 0;
-p =s;
+
 
 
 while (s[i++])
