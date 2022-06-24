@@ -15,23 +15,23 @@ lenn++;
 
 for (i = 0; i < lenh; i++)
 {
-        if (haystack[i] == needle[0])
-        {
-                for (j = 0; j < (lenn - 1); j++)
-                {
-                        if (haystack[i + j] == needle[j])
-                                match = 1;
-                        else
-                                match = 0;
-                        
-                }
-                if (match == 1)
-                {
-                        return (p);
-                }
-                
-        }
-        p++;
+if (haystack[i] == needle[0])
+{
+for (j = 0; j < (lenn - 1); j++)
+{
+if (haystack[i + j] == needle[j])
+match = 1;
+else
+match = 0;
+
+}
+if (match == 1)
+{
+return (p);
+}
+
+}
+p++;
 }
 if (needle[0] == '\0')
 return (haystack);
