@@ -17,7 +17,7 @@ for (i = 0; i < lenh; i++)
 {
         if (haystack[i] == needle[i])
         {
-                for (j = 0; j < (lenn - 1); j++)
+                /*for (j = 0; j < (lenn - 1); j++)
                 {
                         if (haystack[i + j] == needle[i + j])
                                 match = 1;
@@ -28,7 +28,7 @@ for (i = 0; i < lenh; i++)
                 if (match == 1)
                 {
                         return (p);
-                }
+                }*/
                 
         }
         p++;
