@@ -6,16 +6,20 @@
  */
 char *_strchr(char *s, char c)
 {
-
-while (s)
+int j = 0;
+int i = 0;
+while (s[j])
 {
-        if (*s == c)
+j++;
+}
+
+for (i = 0; i <= j; i++)
+{
+        if (*(s + i) == c)
         {
                 return (s);
         }
-        else
-return ('\0');
-        s++;
+       
 }
 return ('\0');
 
