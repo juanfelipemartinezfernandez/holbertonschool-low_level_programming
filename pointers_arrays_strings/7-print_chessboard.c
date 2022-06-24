@@ -12,7 +12,7 @@ len++;
 
 for (i = 0; i < len; i++)
 {
-_putchar(a[i]);
+_putchar(*(a + i));
         for (j = 0; j < 8; j++)
         {
                 _putchar(a[i][j]);
