@@ -14,7 +14,7 @@ while (s[i++])
 {
         if (s[i] == c)
         {
-                return (s);
+                return (s++);
         }
        
 }
