@@ -1,10 +1,24 @@
 /**
- * _strspn -
- * @s:
- * @accept:
- * Return:
+ * _strspn - gets the length of a prefix substring.
+ * @s:The string
+ * @accept:the string to compare
+ * Return: number of bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {
+int len = 0, i, bytes = 0;
 
+while (accept[len])
+len++;
+
+for (i = 0; i < len; i++)
+{
+if (s[i] == accept[i])
+{
+bytes++;
+}
+else
+break;
+}
+return (bytes);
 }
