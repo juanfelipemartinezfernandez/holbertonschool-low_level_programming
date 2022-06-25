@@ -16,10 +16,6 @@ for (j = 0; accept[j]; j++)
        if (s[i] == accept[j])
 bytes++;
 
-else if (accept[i + 1] == '\0')
-{
-return (bytes);
-}
 
 break;
 }
