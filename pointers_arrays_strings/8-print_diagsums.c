@@ -6,15 +6,14 @@
  */
 void print_diagsums(int *a, int size)
 {
-int *p;
-p = a;
-int sum, i;
+int sum = (a[0]), i, accum = 0;
 
 for (i = 0; i < size; i++)
 {
        
-sum = (a[i]) + (a[i + size]);
-        
+sum = sum + (a[accum + i]);
+accum = size * (i + 1);   
+
         
 }
 printf("%d ", sum);
