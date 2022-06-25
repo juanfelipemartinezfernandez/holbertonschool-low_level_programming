@@ -6,13 +6,13 @@
  */
 void print_diagsums(int *a, int size)
 {
-int sum = (a[0]), i, accum = 0;
+int sum = (a[0]), i, accum = size;
 
-for (i = 0; i < size - 1; i++)
+for (i = 1; i < size; i++)
 {
-       
+  accum = size * (i);
 sum = sum + (a[accum + i]);
-accum = size * (i + 1);   
+   
 
         
 }
