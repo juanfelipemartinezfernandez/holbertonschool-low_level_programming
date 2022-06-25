@@ -8,10 +8,8 @@ unsigned int _strspn(char *s, char *accept)
 {
 int len = 0, i, bytes = 0;
 
-while (accept[len])
-len++;
 
-for (i = 0; i < len; i++)
+for (i = 0; accept[len]; i++)
 {
 if (s[i] == accept[i])
 {
