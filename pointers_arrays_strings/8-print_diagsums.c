@@ -24,5 +24,5 @@ for (i = 1; i < size; i++)
 sum1 = sum1 + (a[accum]); 
 accum = accum + size - 1;       
 }
-printf("%d, %d", sum, sum1);
+printf("%d, %d\n", sum, sum1);
 }
