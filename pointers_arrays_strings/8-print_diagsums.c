@@ -20,7 +20,6 @@ accum = (size * 2) - 2;
 
 for (i = 1; i < size; i++)
 {
-  
 sum1 = sum1 + (a[accum]);
 accum = accum + size - 1;
 }
