@@ -6,21 +6,25 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int len = 0, i, bytes = 0;
+int i, bytes = 0, j;
 
 
-for (i = 0; accept[len]; i++)
+for (i = 0; s[i]; i++)
 {
-if (s[i] == accept[i])
+for (j = 0; accept[j]; j++)
 {
+       if (s[i] == accept[j])
 bytes++;
-}
+
 else if (accept[i + 1] == '\0')
 {
 return (bytes);
 }
 
 break;
+}
+
+
 }
 return (bytes);
 }
