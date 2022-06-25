@@ -17,7 +17,7 @@ bytes++;
 }
 else if (accept[i + 1] == '\0' )
 {
-        return (bytes);
+return (bytes);
 }
 
 break;
