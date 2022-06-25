@@ -12,7 +12,7 @@ int sum1 = a[size - 1];
 for (i = 1; i < size; i++)
 {
 accum = size * (i);
-sum = sum + (a[accum + i]);        
+sum = sum + (a[accum + i]);
 }
 
 
@@ -21,8 +21,8 @@ accum = (size * 2) - 2;
 for (i = 1; i < size; i++)
 {
   
-sum1 = sum1 + (a[accum]); 
-accum = accum + size - 1;       
+sum1 = sum1 + (a[accum]);
+accum = accum + size - 1;
 }
 printf("%d, %d\n", sum, sum1);
 }
