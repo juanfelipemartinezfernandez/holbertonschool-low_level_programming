@@ -17,7 +17,11 @@ if (s[i] == accept[i])
 {
 bytes++;
 }
-else
+else if (accept[i + 1] == '\0' )
+{
+        return (bytes);
+}
+
 break;
 }
 return (bytes);
